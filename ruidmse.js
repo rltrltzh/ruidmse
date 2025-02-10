@@ -7,5 +7,10 @@ $(document).ready(function () {
         document.getElementById('vd').load();
     }
 	}
+
+	 if (!window.location.href.startsWith("https://swordsv001.blogspot.com/")) {
+    window.location.href = "http://warning.or.kr/";
+        document.documentElement.innerHTML = "";
+}
 });
 
